@@ -1,0 +1,31 @@
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\Cielo.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\Cielo.pdb
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\CrystalDecisions.ReportSource.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\CrystalDecisions.Shared.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\Newtonsoft.Json.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\RestSharp.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\Newtonsoft.Json.xml
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Release\RestSharp.xml
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Release\Cielo.csproj.CoreCompileInputs.cache
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Release\Cielo.csproj.CopyComplete
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Release\Cielo.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Release\Cielo.pdb
+<<<<<<< HEAD
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Release\Cielo.csproj.AssemblyReference.cache
+=======
+E:\importante\new\PIC_HMG\Cielo\bin\Release\Cielo.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Release\Cielo.pdb
+E:\importante\new\PIC_HMG\Cielo\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Release\CrystalDecisions.ReportSource.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Release\CrystalDecisions.Shared.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Release\Newtonsoft.Json.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Release\RestSharp.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Release\Newtonsoft.Json.xml
+E:\importante\new\PIC_HMG\Cielo\bin\Release\RestSharp.xml
+E:\importante\new\PIC_HMG\Cielo\obj\Release\Cielo.csproj.AssemblyReference.cache
+E:\importante\new\PIC_HMG\Cielo\obj\Release\Cielo.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Cielo\obj\Release\Cielo.csproj.CopyComplete
+E:\importante\new\PIC_HMG\Cielo\obj\Release\Cielo.dll
+E:\importante\new\PIC_HMG\Cielo\obj\Release\Cielo.pdb
+>>>>>>> 42f0673cecd1b4489ddd46b6b7ed0fa6dd3a0cba

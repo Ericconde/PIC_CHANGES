@@ -1,0 +1,969 @@
+.label_usuario {
+    font-family: Calibri;
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.label_menu_botao {
+    font-family: Calibri;
+    font-size: 10px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #666;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+#site {
+    width: 1250px;
+    margin: 0 auto;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    height: auto !important;
+}
+
+p {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+br {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    display: initial !important;
+    text-align: left;
+}
+
+.chekBoxList {
+    font-family: Calibri;
+    font-size: 11px;
+    color: #666;
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+    height: 16px;
+    width: 177px;
+}
+
+.imgTopo {
+    clear: both;
+    background-image: url(../imagens/topo.png) no-repeat;
+    width: 980px;
+    height: 80px;
+}
+
+.radiobutton {
+    font-family: Calibri;
+    font-size: 11px;
+    color: #666;
+    text-align: left;
+}
+
+    .radiobutton label {
+        padding-left: 5px;
+    }
+
+.geral {
+    height: 100%;
+    margin: 0 auto;
+}
+
+#ctl00_imgTopo img {
+    width: 150px !important;
+    height: 43px !important;
+}
+
+h1 {
+    background-color: #06678C;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+    .topo h1, h1.topoTltl {
+        font-size: 22px;
+        font-weight: 700;
+        color: #FFF;
+        width: 647px;
+    }
+
+    h1.topoTltl {
+        display: inline-block;
+        width: 631px;
+    }
+
+
+
+.topo .divLogo {
+    margin-left: -35px;
+}
+
+.conteudo {
+    float: left;
+    height: auto;
+    margin: -14px 0 0;
+    min-height: 513px;
+    width: 1250px;
+    background-color: White;
+    padding: 10px;
+}
+
+.conteudo_fancy {
+    margin: 5px 0 0;
+    width: 650px;
+    background-color: White;
+    padding: 10px;
+}
+
+#divDadosContato {
+    float: left;
+}
+
+#divPontoIluminacao {
+    position: relative;
+    float: left;
+}
+
+#divProcessando {
+    background: url(../images/aguarde.gif) no-repeat center;
+    position: absolute;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    cursor: wait;
+    position: fixed;
+}
+
+.label {
+    color: #006C94;
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_script_assunto {
+    color: #000000;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_script_descricao {
+    color: #0000FF;
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_mensagem_assunto {
+    color: #000000;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_mensagem_descricao {
+    color: #0000FF;
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_mensagem_remetente {
+    color: #000000;
+    font-family: Calibri;
+    font-size: 11px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_alerta {
+    font-family: Calibri;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 0px;
+    color: #FF0000;
+}
+
+.label_protocolo {
+    color: #008000;
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_valor {
+    font-family: Calibri;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 5px;
+    color: #003399;
+}
+
+.td_formulario {
+    background-color: #4694B8;
+    height: 25px;
+}
+
+.textbox {
+    border: 1px solid #006C94;
+    border-radius: 5px;
+    color: #666666;
+    font-family: Calibri;
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.textbox_usuario {
+    border: 1px solid #006C94;
+    font-family: Calibri;
+    font-size: 11px;
+    color: #0000FF;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #fff;
+    border: 1px solid #006C94;
+    border-radius: 5px;
+    color: #666;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+    .botao:hover {
+        background-color: #006C94;
+        color: #f9f9f9;
+    }
+
+.label_titulo_formulario {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.label_subtitulo_formulario {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.td_formulario_titulo {
+    background-color: #006C94;
+    height: 25px;
+    padding: 0 15px 0 15px;
+    text-align: left;
+}
+
+.td_formulario_titulo_script {
+    background-color: #006CA3;
+    padding: 0px 0px 0px 15px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.dropdown {
+    border: 1px solid #006C94;
+    border-radius: 5px;
+    color: #666666;
+    font-family: Calibri;
+    font-size: 11px;
+    margin-left: 0;
+    padding: 3px 2px;
+    margin-right: 0px;
+}
+
+.listBox {
+    border: 1px solid #006C94;
+    font-family: Calibri;
+    font-size: 11px;
+    color: #0000FF;
+    margin-left: 0px;
+}
+
+.td_manutencao {
+    height: 30px;
+}
+
+.td {
+    height: 25px;
+    margin-left: 80px;
+    text-align: right;
+}
+
+.td_pesquisa {
+    height: 25px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.td_centralizado {
+    background-color: #EAF3F7;
+    text-align: center;
+    vertical-align: top;
+}
+
+.td_script {
+    background-color: #EAF3F7;
+    margin-left: 80px;
+    text-align: right;
+}
+
+.td_control_script {
+    background-color: #EAF3F7;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.td_control {
+    height: 25px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.td_label {
+    height: 25px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+.link_manutencao {
+    font-size: 12px;
+    font-weight: bold;
+    color: #7678CB;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+.link_assunto {
+    color: #000;
+    font-size: 10px;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link {
+    color: #000;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    .link:hover {
+        font-size: 12px;
+        padding: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        background-color: #006C94;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+
+.label_sumario {
+    font-family: Calibri;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 0px;
+    color: black;
+}
+
+.label_observacao {
+    font-family: Calibri;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 0px;
+    color: red;
+}
+
+.label_numero_linhas {
+    font-family: Calibri;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 0px;
+    color: #006C94;
+}
+
+.autocomplete_completionListElement {
+    margin: 0px !important;
+    background-color: white;
+    color: windowtext;
+    border: buttonshadow;
+    border-width: 1px;
+    border-style: solid;
+    cursor: 'default';
+    overflow: auto;
+    height: auto;
+    max-height: 300px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.autocomplete_highlightedListItem {
+    background-color: #c6e6b3;
+    color: black;
+    padding: 1px;
+    margin-left: -35px;
+}
+
+.autocomplete_listItem {
+    background-color: window;
+    color: windowtext;
+    padding: 1px;
+    margin-left: -30px;
+}
+
+.modalBackground {
+    background-color: #E6E6E6;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 1;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.modalPopup {
+    background-color: #fffddd;
+    padding: 3px;
+    z-index: 10001;
+}
+
+.linkModal {
+    font-size: 11px;
+    color: #FF0000;
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+.fileUpload {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Calibri;
+}
+
+#div_aceite {
+    width: 700px;
+    height: 490px;
+    position: relative;
+    font-size: 10px;
+    margin: 10px 0px 0px -5px;
+    overflow: auto;
+    border-bottom: #060 1px solid;
+}
+
+.multidropdown {
+    width: 15px;
+}
+
+.menu_topo {
+    float: left;
+}
+
+.usuario {
+    float: right;
+}
+
+.logo {
+    float: right;
+}
+
+.rodape {
+    background: none repeat scroll 0 0 #9E9E9E;
+    color: #FFFFFF;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer {
+    height: 95px;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+}
+
+.box_footer {
+    color: #eee;
+    float: left;
+    font-size: 12px;
+    height: 95px;
+    margin: 0 20px 0;
+    width: 200px;
+}
+
+    .box_footer a {
+        color: #eee;
+        text-decoration: none;
+    }
+
+    .box_footer img {
+        margin: 15px 0;
+    }
+
+.titulo_footer a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    color: #eee;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.barratopo {
+    height: 10px;
+    background: #B5B5B5;
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+    margin: 0;
+    width: 1150px;
+}
+
+#header_center {
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+
+#logo {
+    height: 50px;
+    left: 0;
+    margin: 0 20px 0 0;
+    position: absolute;
+    top: 0;
+    width: 200px;
+}
+
+.block {
+    display: inline-block;
+}
+
+.barraLogin {
+    color: #FFFFFF;
+    left: 770px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 19px;
+    width: 450px;
+    z-index: 999;
+    font-size: 10px;
+    text-align: right;
+}
+
+    .barraLogin a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .barraLogin a:hover {
+            text-decoration: underline;
+        }
+
+.custom {
+    padding: 0.5em 0.8em 0.8em 2em;
+}
+
+* html a:hover {
+    background: transparent;
+}
+
+.classic {
+    background: #FFFFAA;
+    border: 1px solid #FFAD33;
+}
+
+.critical {
+    background: #FFCCAA;
+    border: 1px solid #FF3334;
+}
+
+.help {
+    background: #9FDAEE;
+    border: 1px solid #2BB0D7;
+}
+
+.info {
+    background: #9FDAEE;
+    border: 1px solid #2BB0D7;
+}
+
+.warning {
+    background: #FFFFAA;
+    border: 1px solid #FFAD33;
+}
+
+.botaoEditar {
+    outline: none;
+    text-decoration: none;
+    position: inherit;
+    top: 368px;
+    left: 1320px;
+    width: 15px;
+}
+
+div.label {
+    padding: 3px 0px 3px 0px;
+}
+
+    div.label span.block {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 12px;
+        width: 120px;
+        text-align: right;
+        padding-right: 3px;
+    }
+
+    div.label span.blocksimples {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 12px;
+        text-align: right;
+        padding-right: 3px;
+    }
+
+.box_dashboard {
+    background-color: #FFFFFF;
+    margin: -9px 0 20px;
+    padding: 20px;
+    height: auto;
+}
+
+.fieldset_r_dashboard {
+    float: right;
+    width: 350px;
+}
+
+.fieldset_l_dashboard {
+    float: left;
+    width: 350px;
+    padding: 0;
+    border: 1px solid #C0C0C0;
+}
+
+.fieldset_filtro {
+    width: 1063px;
+    padding: 0;
+    border: 1px solid #C0C0C0;
+}
+
+.div_upload {
+    left: 630px;
+    position: absolute;
+    width: 420px;
+    top: 548px;
+}
+
+.left_grid_anexo {
+    position: absolute;
+    right: -210px;
+    top: -5px;
+    height: 82px;
+}
+
+.fieldset_os {
+    float: left;
+    width: 650px;
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+    .fieldset_os legend {
+        color: #006C94;
+        font-family: Calibri;
+        font-size: 13px;
+        font-weight: bold;
+        margin-right: 5px;
+        text-align: left;
+    }
+
+.div_os {
+    float: left;
+    width: 650px;
+}
+
+.explicacao2 {
+    font-variant: normal;
+    font-weight: normal;
+}
+
+#formImgemSinalizacao {
+    background-color: white;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 0%;
+    opacity: 0;
+    display: none;
+    z-index: 9998;
+}
+
+    #formImgemSinalizacao img {
+        z-index: 9999;
+        width: 50px;
+        height: 50px;
+    }
+
+.dvTextBoxData {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData1 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData1 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData1 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData2 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData2 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData2 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData3 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData3 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData3 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData4 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData4 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData4 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData5 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData5 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData5 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.tooltipComentario {
+    color: #000000;
+    outline: none;
+    cursor: help;
+    text-decoration: none;
+    position: absolute;
+}
+
+ .tooltipComentario span {
+    margin-left: -999em;
+    position: absolute;
+ }
+
+ .tooltipComentario:hover span {
+     border-radius: 5px 5px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+     font-family: Calibri, Tahoma, Geneva, sans-serif;
+     position: absolute;
+     right: 1em;
+     top: 2em;
+     z-index: 99;
+     margin-left: 0;
+     width: 300px;
+ }
+
+ .tooltipComentario:hover em {
+     font-family: Candara, Tahoma, Geneva, sans-serif;
+     font-size: 1.2em;
+     font-weight: bold;
+     display: block;
+     padding: 0.2em 0 0.6em 0;
+ }
+
+
+
+
+.tooltipCentimetragem {
+    color: #000000;
+    outline: none;
+    cursor: help;
+    text-decoration: none;
+    position: absolute;
+}
+
+.tooltipCentimetragem span {
+    margin-left: -999em;
+    position: absolute;
+}
+
+.tooltipCentimetragem:hover span {
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute;
+    right: 1em;
+    top: 2em;
+    z-index: 99;
+    margin-left: 0;
+    width: 300px;
+}
+
+.tooltipCentimetragem:hover em {
+    font-family: Candara, Tahoma, Geneva, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    padding: 0.2em 0 0.6em 0;
+}
+
+.classic {
+    padding: 0.8em 1em;
+}

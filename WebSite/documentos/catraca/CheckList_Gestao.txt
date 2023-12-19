@@ -1,0 +1,25 @@
+Incluir DataVencimento em tCandidatura_Boleto
+
+Incluir Valor em tCandidatura_Boleto
+
+update tCandidatura_Boleto
+set DataVencimento = DataCadastro + 2
+
+delete tCandidatura_Boleto where IDCandidatura not in (select IDCandidatura from tCandidatura)
+
+update tCandidatura_Boleto
+set Valor = bo.ValorInscricao
+from (
+select IDCandidatura, v.ValorInscricao
+from tCandidatura c
+inner join tVaga v on c.IDVaga = v.IDVaga) bo
+where bo.IDCandidatura = tCandidatura_Boleto.IDCandidatura
+
+update tCandidatura_Boleto
+set Valor = 0
+where Valor is null
+
+Criar chave tCandidatura_Boleto x tCandidatura
+
+Alterar vCandidaturaBoleto
+

@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Clube.master.cs"
+    Inherits="controls_Clube" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PIC</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../scripts/mascara.js" type="text/javascript"></script>
+    <script src="../fancy/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="../fancy/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <link href="../fancy/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+    <link rel="shotcurt icon" href="~/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--ABERTURA DA DIV QUE CONTROLA O TOPO (HEADER)-->
+        <div id="header">
+            <!--ABERTURA DA DIV QUE CENTRALIZA O TOPO (HEADER)-->
+            <div id="center_topo">
+                <div id="logoSite">
+                    <img alt="" src="../images/LogoTopoSite.png" style="height: 80%; width: 80%; margin-left: -3%;" />
+                    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="True"
+                        AsyncPostBackTimeout="36000">
+                        <Scripts>
+                            <asp:ScriptReference Path="~/scripts/browser.js" />
+                        </Scripts>
+                    </asp:ScriptManager>
+                </div>
+
+                <!--ABERTURA DA DIV MENU-->
+                <div id="menu_administrador">
+                    <ul id="menus" runat="server">
+                        <li>
+                            <asp:HyperLink ID="HyperLink3" runat="server" CssClass="menu_admin" NavigateUrl="~/clube/Default.aspx" style="margin-top:-16%;">INICIAL</asp:HyperLink></li>
+                        <li style="margin-top: -5px;">
+                            <label style="color: white">|</label></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink7" runat="server" CssClass="menu_admin" NavigateUrl="~/clube/CatracaVirtual.aspx" style="margin-top:-8%;">CATRACA VIRTUAL</asp:HyperLink></li>
+                        <li style="margin-top: -5px;">
+                            <label style="color: white">|</label></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="menu_admin" NavigateUrl="~/relatorios/retornoCatraca_fisica.aspx" style="margin-top:-6%;">REGISTRO DE ENTRADA</asp:HyperLink></li>
+                        <li style="margin-top: -5px;">
+                            <label style="color: white">|</label></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink6" runat="server" CssClass="menu_admin" NavigateUrl="~/clube/trocarSenha.aspx" style="margin-top:-8%;">TROCAR SENHA</asp:HyperLink></li>
+                        <li style="margin-top: -5px;">
+                            <label style="color: white">|</label></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="menu_admin" NavigateUrl="~/login/logout.aspx" style="margin-top:-21%;">SAIR</asp:HyperLink></li>
+
+                        <td style="margin-left: 50px">
+                            <div id="divLupa">
+                                <%-- <a href=" " target="_blank">--%>
+                                <a>
+                                    <img alt="" src="../images/LupaNova.png" style="height: 5%; width: 8%; margin-left: 705px; margin-top: -45px" />
+                                </a>
+                            </div>
+                        </td>
+
+                         <td style="margin-left: 50px">
+                            <div id="divAcessibilidade">
+                                 <%-- <a href=" " target="_blank">--%>
+                                <a>
+                                    <img alt="" src="../images/Acessibilidade.png" style="height: 5%; width: 8%; margin-left: 706px; margin-top: 52px" />
+                                </a>
+                            </div>
+                        </td>
+                    </ul>
+                </div>
+                <!--FECHAMENTO DA DIV MENU-->
+            </div>
+            <!--FECHAMENTO DA DIV QUE CENTRALIZA O TOPO (HEADER)-->
+        </div>
+        <!--FECHAMENTO DA DIV QUE CONTROLA O TOPO (HEADER)-->
+
+        <%--  <div id="boas_vindas">
+        <asp:Label  ID="lblUsuario" runat="server" CssClass="nome_usuario"></asp:Label> 
+        <br/><asp:Label  ID="lblIP" runat="server" CssClass="nome_usuario"></asp:Label> 
+    </div>--%>
+        <!--ABERTURA DA DIV SITE-->
+        <div id="site">
+
+            <!--ABERTURA DA DIV conteudo_sistema-->
+            <div id="conteudo_sistema">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!--FECHAMENTO DA DIV conteudo_sistema-->
+            <div class="clear"></div>
+        </div>
+        <!--FECHAMENTO DA DIV SITE-->
+         <div id="footer_center" style="height: 0px;">
+            <!--ABERTURA DA DIV FOOTER CENTER-->
+            
+            <table style="position: absolute;margin-top:30px">
+
+                <tr style="width: 100%">
+                    <td>
+                        <div>
+                            <a href="../site/default.aspx">
+                                <img alt="" src="../images/Rodape.png" style="height: 80%; width: 95%" />
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id="divFace">
+                            <a href="https://pt-br.facebook.com/pampulhaiateclube" target="_blank">
+                                <img alt="" src="../images/Face.png" style="height: 80%; width: 60%" />
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id="divTwitter">
+                            <a href="https://twitter.com/pic_bh" target="_blank">
+                                <img alt="" src="../images/Twitter_novo.png" style="height: 80%; width: 60%" />
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id="divInsta">
+                            <a href="https://www.instagram.com/pic_clube" target="_blank">
+                                <img alt="" src="../images/Insta.png" style="height: 80%; width: 60%" />
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id="divZap">
+                            <a href="https://api.whatsapp.com/send?phone=%2B5531997679970" target="_blank">
+                                <img alt="" src="../images/Zap.png" style="height: 80%; width: 60%" />
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id="divYouTube">
+                            <a href="https://www.youtube.com/user/PampulhaIateclube" target="_blank">
+                                <img alt="" src="../images/YouTube.png" style="height: 80%; width: 60%" />
+                            </a>
+                        </div>
+                    </td>
+
+
+
+                </tr>
+            </table>
+                </div>
+
+
+            <!--Barra do Rodapé-->
+            <div id="header" style="margin: 40px 0px 3px;">
+            </div>
+
+            <!--FECHAMENTO DA DIV FOOTER CENTER-->
+        
+        <!--FECHAMENTO DA DIV FOOTER-->
+    </form>
+</body>
+</html>

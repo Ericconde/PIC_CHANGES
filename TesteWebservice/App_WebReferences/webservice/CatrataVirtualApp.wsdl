@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AutenticarUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="senha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipoingresso_a_ser_lido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutenticarUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutenticarUsuarioResult" type="tns:usuario" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="usuario">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="autenticado" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="idusuario" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensagem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tipoingresso_a_ser_lido" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RegistrarEntrada">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codigoqrcode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idusuario" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipoingresso_a_ser_lido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarEntradaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrarEntradaResult" type="tns:ingresso" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ingresso">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="entradaliberada" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cliente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="datahoraentrada" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="qrcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensagem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tipo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tipoingresso_a_ser_lido" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AutenticarUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarEntradaSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarEntrada" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarEntradaSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarEntradaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ingressospicSoap">
+    <wsdl:operation name="AutenticarUsuario">
+      <wsdl:input message="tns:AutenticarUsuarioSoapIn" />
+      <wsdl:output message="tns:AutenticarUsuarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarEntrada">
+      <wsdl:input message="tns:RegistrarEntradaSoapIn" />
+      <wsdl:output message="tns:RegistrarEntradaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ingressospicSoap" type="tns:ingressospicSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AutenticarUsuario">
+      <soap:operation soapAction="http://tempuri.org/AutenticarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarEntrada">
+      <soap:operation soapAction="http://tempuri.org/RegistrarEntrada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ingressospicSoap12" type="tns:ingressospicSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AutenticarUsuario">
+      <soap12:operation soapAction="http://tempuri.org/AutenticarUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarEntrada">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarEntrada" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ingressospic">
+    <wsdl:port name="ingressospicSoap" binding="tns:ingressospicSoap">
+      <soap:address location="http://webservice.ingressospic.com.br/CatrataVirtualApp.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ingressospicSoap12" binding="tns:ingressospicSoap12">
+      <soap12:address location="http://webservice.ingressospic.com.br/CatrataVirtualApp.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

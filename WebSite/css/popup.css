@@ -1,0 +1,658 @@
+﻿body{margin:0px; padding:0px; 
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+     background-color: #fff;}
+a:hover
+{
+	text-decoration: underline;
+}
+
+.menu_link
+{
+	font-family: Calibri;
+	font-size: 70%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align:center; 
+}
+
+.grid_link
+{
+	font-family: Calibri;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+.textbox
+{
+	border: 1px solid #000000;
+	font-family: Calibri;
+	font-size: 11px;
+	color: #0000FF;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.textbox_senha
+{
+	border: 1px solid #000000;
+	font-family: Calibri;
+	font-size: 11px;
+	color: #0000FF;
+}
+
+.textbox_email
+{
+	border: 1px solid #000000;
+	font-family: Calibri;
+	font-size: 11px;
+	color: #0000FF;
+	text-transform:lowercase;
+}
+
+.label
+{
+	font-family: Calibri;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 0px;
+}
+
+.label_NumeroInscricao
+{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: bold;
+	margin-left: 0px;
+}
+
+.label_Pontuacao
+{
+    font-family: Calibri;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-left: 0px;
+    color: #0000FF;
+}
+
+.label_alerta
+{
+	font-family: Calibri;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 0px;
+	color: Red;
+}
+
+.label_saudacao
+{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-left: 0px;
+	font-weight: bold;
+	color: #0000FF;
+}
+
+.label_inscricao
+{
+	font-family: Calibri;
+	font-size: 11px;
+	margin-left: 0px;
+	font-weight:normal;
+}
+
+.label_duvida
+{
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.label_explicacao
+{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-left: 0px;	
+}
+
+.label_resposta
+{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-left: 0px;	
+}
+
+.label_titulo_mensagem_candidato
+{
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.label_mensagem_candidato
+{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-left: 0px;	
+}
+
+.texto_inicial_admin
+{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-left: 0px;
+	line-height: 24px;
+}
+
+.td_processo
+{
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 0px;
+	color: White;
+	background-color: #4694B8;
+	height: 25px;
+}
+
+.menu_celula
+{
+	background-color: #4694B8;
+	height: 30px;
+}
+
+.menu_celula_admin
+{
+	background-color: #4694B8;
+	height: 30px;
+	text-align: center;
+}
+
+.menu_celula_cliente
+{
+	background-color: #FFF;
+	height: 30px;
+	text-align: center;
+}
+
+.menu_celula_candidato
+{
+	background-color: #339966;
+	height: 30px;
+	text-align:center;
+}
+
+.rodape_celula_candidato
+{
+	background-color: #339966;
+	height: 30px;
+}
+.rodape
+{
+	background-image: url('../images/fundo_rodape.jpg');
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: center center;
+	height:27px;
+}
+
+.link
+{
+	font-size: 10px;
+	font-weight: bold;
+	color: blue;
+	font-family: Tahoma;
+	text-decoration: none;	
+}	
+
+.link_candidato
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Tahoma;
+	text-decoration: none;
+}	
+
+.link_cadastro
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+.link_processo
+{
+	font-size: 10px;
+	font-weight: bold;
+	color: black;
+	font-family: Tahoma;
+	text-decoration: none;	
+}
+
+.link_isencao
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+.rodape_celula
+{
+	background-color: #4694B8;
+	height: 30px;
+}
+
+.rodape_celula_admin
+{
+	background-color: #4694B8;
+	height: 30px;
+}
+
+.rodape_celula_cliente
+{
+	background-color: #FF9900;
+	height: 30px;
+}
+
+.rodape_label
+{
+	font-family: Calibri;
+	font-size: 10px;	
+	color: #FFFFFF;
+}
+
+.titulo_formulario
+{
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.td_titulo_formulario
+{
+    background-color: #046c91;
+    height: 25px;
+    padding: 0 5px;
+}
+
+.td_titulo_formulario_candidato
+{
+	background-color: #4694B8;
+	height: 25px;
+}
+
+.td_candidato
+{
+	background-color: #EEEEEE;
+	height: 25px;
+}
+
+.label_numero_linhas
+{
+	font-family: Calibri;
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 0px;
+	color: #009900;
+}
+
+.label_sumario
+{
+	font-family: Calibri;
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 0px;
+	color: black;
+}
+
+.label_detalhes
+{
+	font-family: Calibri;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 0px;
+	color: #FFFFFF;
+}
+
+.dropdown
+{
+    border: 1px solid #262626;
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    margin: 0 0 10px;
+    padding: 0 5px;
+}
+
+.radiobutton
+{	
+	font-family: Calibri;
+	font-size: 10px;
+	color: #0000FF;
+}
+
+.chekButtonList
+{	
+	font-family: Calibri;
+	font-size: 11px;
+	color: #0000FF;
+}
+
+.radiobutton
+{	
+	font-family: Calibri;
+	font-size: 10px;
+	color: #0000FF;
+}
+
+.CheckboxList
+{	
+	font-family: Calibri;
+	font-size: 10px;
+	color: #0000FF;
+}
+
+.CheckboxList input 
+{ 
+    float:left; 
+    clear:both; 
+}
+
+.grid_header th {
+    background-color: #c5cbce;
+    background-position: left;
+    color: #fff;
+    text-align: left;
+    height: 28px;
+    border-right: #999 1px solid;
+    border-top: #999 1px solid;
+    border-left: #999 1px solid;
+    border-bottom: #999 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid tr td
+{
+    padding: 5px 5px 1px 1px;
+}
+
+.grid_row_selecionado
+{
+	color: black;
+	text-align: left;
+	background-color: #E5E5E5;
+	text-align: left;
+	border-right: #999 1px solid;
+	border-top: #999 1px solid;
+	border-left: #999 1px solid;
+	border-bottom: #999 1px solid;	
+}
+
+.grid, .grid_none
+{
+	color: #666;
+	text-align: left;
+	background-color: #edf2f5;
+	padding: 0 5px !important;
+}
+tr.grid_alternative_row, tr.grid_alternative_row_none
+{
+    background-color: #e2edf3;
+    color: #666;
+}
+
+.grid_page span
+{
+	display: block;
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	color: #006C94;
+	border: 1px solid #006C94;
+	text-align: center;
+	text-decoration: none;
+}
+
+.grid_link
+{
+	text-decoration: none;
+	color: #808080;
+}
+ .grid tr a {
+    color: #555;
+    display: block;
+    padding: 0 5px;
+    text-decoration: none;
+	}
+.grid tr:hover, .grid_link:hover, .texto_box_home_site a:hover 
+{
+    background-color: #046c91 !important;
+	color: #eee !important;
+	cursor: pointer;
+}
+
+.nome_usuario
+{
+	font-family: Calibri;
+	font-size: 10px;
+}
+
+.td
+{	
+	background-color: #d9ebe0;
+	text-align: left;
+}
+
+.linkbutton_status_selecionado
+{
+	background-color: Black;
+	height: 50px;
+}
+.td_inscricao
+{
+	border: 1px solid #008000;
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:Black;
+}
+
+#divProcessando
+{
+	background:url(../images/aguarde.gif) no-repeat center;
+	position:absolute;
+	z-index:999999999;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	cursor:wait;
+	position:fixed;
+}
+
+.link_manutencao
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+.link_relatorio
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	font-family: Tahoma;
+	text-decoration: none;
+}
+
+#wrapper { width: 207px; 
+margin: 0 auto; text-align: left; }
+
+h2,h5 { }
+h2 { margin-bottom: 5px; }
+small { color: #999; }
+a { color: #00aeef; }
+hr { margin: 20px 0; }
+code { color: #c60; }
+strong { color: #000; }
+.highlight { background: #fff687; padding: 4px;
+ }
+
+
+/* Custom Icons */
+.addthis_toolbox .custom_images um {
+    width: 32px;
+    height:32px;
+    margin:0;
+    padding: 0;
+    padding-left:10px;
+    
+}
+.addthis_toolbox .custom_images uma img {
+    opacity: 1,0;
+
+}
+.addthis_toolbox .custom_images um:hover img {
+    opacity: 0,75;
+}
+
+.label_titulo_candidato
+{
+	font-family: Calibri;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 0px;
+	color: #808080;
+}
+
+.label_candidato
+{
+	font-family: Calibri;
+	font-size: 11px;
+	font-weight: normal;
+	margin-left: 0px;
+	color: #999999;
+}
+
+.label_processo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botao
+{
+	border:none;
+	padding: 0px 30px !important;
+	background: #0062C0;
+	height:20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: none;
+	font-weight: bold;
+	color: #FFF;
+	border:none;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.botao:hover
+{
+    background-color: #ffb502;
+    color: #FFF;
+}
+
+.botao_candidato
+{
+	border:none;
+	padding: 0px 30px !important;
+	background: #0062C0;
+	height:20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: none;
+	font-weight: bold;
+	color: #FFF;
+	border:none;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width:250px;
+}
+
+.botao_candidato:hover
+{
+    background-color: #ffb502;
+    color: #FFF;
+}
+
+.bg_titulo {
+    background-color: #262626;
+    border-bottom: 2px solid #fff;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 20px;
+    padding: 0 15px;
+	}
+.titulo_left {
+	color:#fff;
+	font-size:18px;
+	float:left;
+	}
+#icon_lapis 
+{
+    float: left;
+    height: 163px;
+    margin: -35px 0 0 725px;
+    position: absolute;
+    width: 85px;
+    z-index: 9999;
+    }
+.titulo_pagina {
+    background: url("../images/bg_titulo.jpg") repeat-x 0 -43px;
+    /*border-bottom: 5px solid #eee;*/
+    color: #fff;
+    font-size: 22px;
+    margin: 0 0 30px;
+    padding: 5px 15px;
+	}
+.text_title {
+    padding: 0 10px;
+}
+.titulo_box 
+{
+    color: #046C91;
+    font-size:18px;
+    }
+.bg_title_color1 
+{
+    background-color: #c1d4da;
+    color: #046c91;
+    }
+.bg_title_color2 
+{
+    background-color: #046c91;
+    color: #c1d4da;
+    }

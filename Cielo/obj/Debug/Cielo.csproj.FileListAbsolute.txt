@@ -1,0 +1,81 @@
+E:\importante\new\PIC\Cielo\bin\Debug\Cielo.dll
+E:\importante\new\PIC\Cielo\bin\Debug\Cielo.pdb
+E:\importante\new\PIC\Cielo\bin\Debug\Newtonsoft.Json.dll
+E:\importante\new\PIC\Cielo\bin\Debug\RestSharp.dll
+E:\importante\new\PIC\Cielo\bin\Debug\Newtonsoft.Json.xml
+E:\importante\new\PIC\Cielo\bin\Debug\RestSharp.xml
+E:\importante\new\PIC\Cielo\obj\Debug\Cielo.csproj.AssemblyReference.cache
+E:\importante\new\PIC\Cielo\obj\Debug\Cielo.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC\Cielo\obj\Debug\Cielo.csproj.CopyComplete
+E:\importante\new\PIC\Cielo\obj\Debug\Cielo.dll
+E:\importante\new\PIC\Cielo\obj\Debug\Cielo.pdb
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\Cielo.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\Cielo.pdb
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\RestSharp.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\RestSharp.xml
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\obj\Debug\Cielo.csproj.CoreCompileInputs.cache
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\obj\Debug\Cielo.csproj.CopyComplete
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\obj\Debug\Cielo.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\obj\Debug\Cielo.pdb
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Cielo\obj\Debug\Cielo.csprojAssemblyReference.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\Cielo.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\Cielo.pdb
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\RestSharp.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\bin\Debug\RestSharp.xml
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\obj\Debug\Cielo.csprojAssemblyReference.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CoreCompileInputs.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CopyComplete
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\obj\Debug\Cielo.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Cielo\obj\Debug\Cielo.pdb
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\Cielo.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\Cielo.pdb
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.Shared.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\RestSharp.dll
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.xml
+E:\importante\new\PIC_HMG\Cielo\bin\Debug\RestSharp.xml
+E:\importante\new\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.AssemblyReference.cache
+E:\importante\new\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CopyComplete
+E:\importante\new\PIC_HMG\Cielo\obj\Debug\Cielo.dll
+E:\importante\new\PIC_HMG\Cielo\obj\Debug\Cielo.pdb
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\Cielo.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\Cielo.pdb
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.Shared.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\RestSharp.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.xml
+F:\Projetos PontoBr\PIC_HMG\Cielo\bin\Debug\RestSharp.xml
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.AssemblyReference.cache
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CoreCompileInputs.cache
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CopyComplete
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Debug\Cielo.dll
+F:\Projetos PontoBr\PIC_HMG\Cielo\obj\Debug\Cielo.pdb
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\Cielo.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\Cielo.pdb
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\RestSharp.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\bin\Debug\RestSharp.xml
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\obj\Debug\Cielo.csproj.CopyComplete
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\obj\Debug\Cielo.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Cielo\obj\Debug\Cielo.pdb

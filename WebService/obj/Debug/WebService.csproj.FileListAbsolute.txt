@@ -1,0 +1,21 @@
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\WebService.dll.config
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\WebService.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\WebService.pdb
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\Controller.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\CrystalDecisions.ReportSource.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\CrystalDecisions.Shared.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\Model.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\PontoBr.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\stdole.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\Controller.pdb
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\Controller.dll.config
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\Model.pdb
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\bin\Model.dll.config
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\obj\Debug\WebService.csprojAssemblyReference.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\obj\Debug\WebService.csproj.CopyComplete
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\obj\Debug\WebService.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\WebService\obj\Debug\WebService.pdb
+F:\Projetos PontoBr\PIC_HMG\WebService\obj\Debug\WebService.csproj.AssemblyReference.cache
+F:\Projetos PontoBr\PIC_HMG\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache

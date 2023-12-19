@@ -1,0 +1,35 @@
+F:\Projetos PontoBr\PIC_HMG\Controller\obj\Release\Controller.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Controller\obj\Release\Controller.csproj.AssemblyReference.cache
+E:\importante\new\PIC_HMG\Controller\obj\Release\Controller.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Controller\bin\Release\Controller.dll.config
+E:\importante\new\PIC_HMG\Controller\bin\Release\Controller.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\Controller.pdb
+E:\importante\new\PIC_HMG\Controller\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\CrystalDecisions.ReportSource.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\CrystalDecisions.Shared.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\Model.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\PontoBr.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\MultiDropDown.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\DropDownCheckBoxes.dll
+E:\importante\new\PIC_HMG\Controller\bin\Release\Model.pdb
+E:\importante\new\PIC_HMG\Controller\bin\Release\Model.dll.config
+E:\importante\new\PIC_HMG\Controller\bin\Release\PontoBr.dll.config
+E:\importante\new\PIC_HMG\Controller\obj\Release\Controller.csproj.CopyComplete
+E:\importante\new\PIC_HMG\Controller\obj\Release\Controller.dll
+E:\importante\new\PIC_HMG\Controller\obj\Release\Controller.pdb
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\Controller.dll.config
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\Controller.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\Controller.pdb
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\CrystalDecisions.ReportSource.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\CrystalDecisions.Shared.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\Model.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\MultiDropDown.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\DropDownCheckBoxes.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\Model.pdb
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\Model.dll.config
+F:\Projetos PontoBr\PIC_HMG\Controller\bin\Release\PontoBr.dll.config
+F:\Projetos PontoBr\PIC_HMG\Controller\obj\Release\Controller.csproj.AssemblyReference.cache
+F:\Projetos PontoBr\PIC_HMG\Controller\obj\Release\Controller.csproj.CopyComplete
+F:\Projetos PontoBr\PIC_HMG\Controller\obj\Release\Controller.dll
+F:\Projetos PontoBr\PIC_HMG\Controller\obj\Release\Controller.pdb

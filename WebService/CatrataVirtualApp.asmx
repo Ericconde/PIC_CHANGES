@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="CatrataVirtualApp.asmx.cs" Class="WebService.ingressospic" %>

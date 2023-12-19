@@ -1,0 +1,29 @@
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Model\obj\Release\Model.csproj.AssemblyReference.cache
+E:\importante\new\PIC_HMG\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Model\bin\Release\Model.dll.config
+E:\importante\new\PIC_HMG\Model\bin\Release\Model.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\Model.pdb
+E:\importante\new\PIC_HMG\Model\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\CrystalDecisions.ReportSource.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\CrystalDecisions.Shared.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\PontoBr.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\MultiDropDown.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\DropDownCheckBoxes.dll
+E:\importante\new\PIC_HMG\Model\bin\Release\PontoBr.dll.config
+E:\importante\new\PIC_HMG\Model\obj\Release\Model.csproj.CopyComplete
+E:\importante\new\PIC_HMG\Model\obj\Release\Model.dll
+E:\importante\new\PIC_HMG\Model\obj\Release\Model.pdb
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\Model.dll.config
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\Model.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\Model.pdb
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\CrystalDecisions.ReportSource.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\CrystalDecisions.Shared.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\MultiDropDown.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\DropDownCheckBoxes.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Release\PontoBr.dll.config
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Release\Model.csproj.AssemblyReference.cache
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Release\Model.csproj.CopyComplete
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Release\Model.dll
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Release\Model.pdb

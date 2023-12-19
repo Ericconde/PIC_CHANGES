@@ -1,0 +1,29 @@
+a.HyperLinkTitulo {
+    font-size: 12.0pt !important;
+    color: gray !important;
+    text-decoration: none !important;
+}
+
+    a.HyperLinkTitulo:visited {
+        color: none !important;
+        text-decoration: none !important;
+    }
+
+    a.HyperLinkTitulo:active {
+        text-decoration: none !important;
+    }
+
+a.HyperLinkSubtitulo {
+    font-size: 9.0pt !important;
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+    a.HyperLinkSubtitulo:visited {
+        color: none !important;
+        text-decoration: none !important;
+    }
+
+    a.HyperLinkSubtitulo:active {
+        text-decoration: none !important;
+    }

@@ -1,0 +1,859 @@
+
+@font-face {
+    font-family: 'Montserrat'; /*a name to be used later*/
+    src: url('../fonts/Montserrat-Light.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'EuroLight'; /*a name to be used later*/
+    src: url('../fonts/eurof35.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'HeroLight'; /*a name to be used later*/
+    src: url('../fonts/HeroLight_0.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Steinerlight'; /*a name to be used later*/
+    src: url('../fonts/Steinerlight_0.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Candara'; /*a name to be used later*/
+    src: url('../fonts/Candara.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Eurofurance Light'; /*a name to be used later*/
+    src: url('../fonts/eurof35.ttf'); /*URL to font*/
+}
+
+
+
+/* Fonts */
+
+body {
+    font-family: Helvetica; /*'HeroLight', sans-serif;*/
+    background-color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: Helvetica; /*'HeroLight', sans-serif;*/
+    color: dimgrey;
+    font-weight: 700;
+}
+
+.title_m {
+    font-size: 2.2em;
+    padding-top: 20px;
+    font-family: "HeroLight", sans-serif;
+}
+
+.acc_f {
+    font-family: 'Eurofurance Light', sans-serif;
+    font-size: 42px;
+    color: #6d2177;
+    margin-top: -15px;
+}
+
+.acc_fs {
+    font-family: 'Eurofurance Light', sans-serif;
+    font-size: 25px;
+    color: #6d2177;
+}
+
+.class="payit" {
+    padding: 0 10px;
+}
+
+.box_test {
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.form_test {
+    background-color: #ddd;
+    border: 2px solid #fff;
+}
+
+.box_test_t {
+    padding-top: 150px;
+}
+
+.acc_fp {
+    font-family: 'EuroLight', sans-serif;
+    font-size: 16px;
+}
+
+.acc_ft {
+    font-family: 'Eurofurance Light', sans-serif;
+    font-size: 22px;
+    text-align: right;
+    color: #6d2177;
+}
+
+.navbar-light .navbar-nav .nav-link > li > a {
+    padding: 0 50px;
+}
+
+#thumbnailwrapper {
+    margin-right: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+#artiststhumbnail {
+    width: 420px;
+    height: 108px;
+    overflow: hidden;
+}
+
+    #artiststhumbnail:hover {
+        left: 50px
+    }
+
+#genre {
+    font-size: 12px;
+    font-weight: bold;
+    color: #2A2A2A
+}
+
+/* Fancy Button*/
+.btn-sm {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: grey;
+    font-size: 16px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+    border: 2px solid grey;
+}
+
+    .btn-sm:hover {
+        background: #bbbcbd;
+        background-image: -webkit-linear-gradient(top, #bbbcbd, #c4c4c4);
+        background-image: -moz-linear-gradient(top, #bbbcbd, #c4c4c4);
+        background-image: -ms-linear-gradient(top, #bbbcbd, #c4c4c4);
+        background-image: -o-linear-gradient(top, #bbbcbd, #c4c4c4);
+        background-image: linear-gradient(to bottom, #bbbcbd, #c4c4c4);
+        text-decoration: none;
+    }
+
+.breakl {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+
+/* Menu color white and spacing*/
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
+    color: white;
+}
+
+#artiststhumbnail img {
+    float: left;
+    margin: auto;
+}
+
+.sub_c_o {
+    color: orange;
+    padding-top: padding: 0 30px;
+}
+
+.ti em0px;
+text-align: lexfx;
+}
+
+.titlem {
+    margin-bottom: -45px;
+}
+
+.font-alt2 {
+    font-family: 'Steinerlight';
+    font-size: 7em;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.titlem {
+    margin-bottom: -45px;
+}
+
+.contactt {
+    font-family: 'HeroLight', sans-serif;
+    font-size: 38px;
+    color: dimgrey;
+}
+
+.contactin {
+    font-family: 'HeroLight', sans-serif;
+    font-size: 18px;
+    color: dimgrey;
+}
+
+.greybg {
+    background-color: #eaeaea;
+}
+
+.font-alt1 {
+    font-family: 'HeroLight', sans-serif;
+    font-size: 28px;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+
+.titlebox {
+    background-color: #f15a5b;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.titleboxwho {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.orange_t {
+    color: orange;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: right;
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.orange_ts {
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.gray_t {
+    color: grey;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.gray_ts {
+    color: grey;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.violet_t {
+    color: darkviolet;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.violet_ts {
+    color: #6d2177;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Eurofurance Light', sans-serif;
+}
+
+.creditsf {
+    font-family: 'EuroLight', sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+
+.whobox {
+    padding-top: 40px;
+}
+
+.orangep {
+    color: orange;
+    font-size: 28px;
+}
+
+#imgcontent {
+    width: 700px;
+    display: block;
+    height: auto;
+}
+
+    #imgcontent > img {
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin: 5px 8px;
+    }
+
+.whitebg {
+    background-color: white;
+}
+
+    .whitebg h3 {
+        padding-top: 30px;
+        font-size: 40px;
+        text-align: right;
+    }
+
+    .whitebg p {
+        font-size: 18px;
+        text-align: right;
+    }
+
+
+.stboard {
+    background-color: #fff;
+    border-top: 20px solid #ddd;
+    border-bottom: 20px solid #ddd;
+    border-left: 20px solid #ddd;
+    border-right: 20px solid #ddd;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+
+.slform {
+    margin-top: 40px;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.formglg {
+    background: #fff;
+    border: 2px solid #6d2177;
+}
+
+.form-controlin {
+    background-color: #ddd;
+    border: 2px solid #fff;
+}
+
+.subsc {
+    background-color: #70126b;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-family: 'HeroLight', sans-serif;
+}
+
+hr.footerl {
+    border: 0;
+    height: 1px;
+    width: 95%;
+    background: #f15a5b;
+    color: white;
+    font-size: 30px;
+}
+
+.site-footer {
+    color: #fff;
+    padding: 10px 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-grey {
+    color: grey;
+    font-weight: 100;
+}
+
+.social-white {
+    margin-left: -70px;
+}
+/* Price List */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+.btn-basic {
+    background-color: #f15a5b;
+    color: white;
+    font-size: 30px;
+}
+
+.btn-medium {
+    background-color: #ffc000;
+    color: white;
+    font-size: 30px;
+}
+
+.btn-advanced {
+    background-color: #7030a0;
+    color: white;
+    font-size: 30px;
+}
+
+.panel-pricing {
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+    .panel-pricing:hover {
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .panel-pricing .panel-heading {
+        padding: 20px 10px;
+    }
+
+        .panel-pricing .panel-heading .fa {
+            margin-top: 10px;
+            font-size: 58px;
+        }
+
+.panel-heading h3, p {
+    font-family: 'Candara';
+    text-align: left;
+}
+
+#sticker img {
+    float: right;
+    clear: right;
+    width: 100px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+
+.panel-pricing .list-group-item {
+    color: #777777;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+    .panel-pricing .list-group-item:last-child {
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .panel-pricing .list-group-item:first-child {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+.panel-pricing .panel-body {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    color: #777777;
+    padding: 20px;
+    margin: 0px;
+}
+
+.panel-heading {
+    background-color: #f0f0f0;
+}
+
+.ul-TipoPagamento {
+    margin: 0px;
+    padding: 0px;
+}
+
+    .ul-TipoPagamento li {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+.boxcinza {
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+div.informacoes {
+    height: auto;
+    width: 864px;
+    text-align: left;
+}
+
+    div.informacoes div.label * {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+div.label span.block {
+    width: auto;
+    text-align: left;
+}
+
+div.spaceH {
+    height: 5px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#divProcessando {
+    background: url(../images/aguarde.gif) no-repeat center;
+    position: absolute;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    cursor: wait;
+    position: fixed;
+}
+
+.CheckboxList label {
+    font-size: 13px;
+    font-weight: normal;
+    display: inline;
+    padding-right: 40px;
+    margin-left: 14px;
+}
+
+#divcheck_box {
+    border: 1px solid #ccc;
+    width: 936px;
+    overflow-y: scroll;
+}
+
+#divcheck_box_risco {
+    border: 1px solid #ccc;
+    width: 300px;
+    min-height:300px;
+    overflow-y: scroll;
+}
+
+#divcheck_box_epi {
+    border: 1px solid #ccc;
+    width: 800px;
+    min-height: 300px;
+    overflow-y: scroll;
+}
+
+#divcheck_box_aplicabilidade {
+    border: 1px solid #ccc;
+    width: 800px;
+    min-height: 200px;
+    overflow-y: scroll;
+}
+
+#divcheck_box_statusAptidao {
+    border: 1px solid #ccc;
+    width: 650px;
+    min-height: 200px;
+    overflow-y: scroll;
+}
+
+.chkstatusAptidao {
+    margin: 4px 0 0 4px;
+}
+
+    .chkstatusAptidao label {
+        font-size: 13px;
+        font-weight: normal;
+        display: inline;
+        padding-left: 15px;
+    }
+
+.explicacao2 {
+    font-variant: normal;
+    font-weight: normal;
+}
+
+#divcheckResponsabilidaded_box {
+    border: 1px solid #ccc;
+    width: 1100px;
+    overflow-y: scroll;
+}
+
+#divcheckRiscoAso {
+    border: 1px solid #ccc;
+    width: 480px;
+    overflow-y: scroll;
+}
+
+.dvTextBoxData {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData1 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData1 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData1 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData2 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData2 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData2 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData3 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData3 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData3 img {
+        position: absolute;
+        top: 6px;
+        right: 5px;
+    }
+
+.dvTextBoxData4 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData4 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData4 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData5 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData5 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData5 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData6 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData6 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData6 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData7 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData7 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData7 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData8 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData8 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData8 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData9 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData9 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData9 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData10 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData10 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData10 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData11 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData11 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData11 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxData12 {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxData12 input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxData12 img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.dvTextBoxDataElaboracao {
+    position: relative;
+    width: 100px;
+}
+
+    .dvTextBoxDataElaboracao input {
+        border: none: background:#fff;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dvTextBoxDataElaboracao img {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+.radiobutton {
+    font-family: Calibri;
+    color: #666;
+    text-align: left;
+}
+
+    .radiobutton label {
+        font-size: 13px;
+        font-weight: normal;
+        display: inline;
+        padding-right: 40px !important;
+        margin: 4px 0px 0 10px !important;
+    }
+
+

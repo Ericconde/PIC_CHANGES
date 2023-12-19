@@ -1,0 +1,264 @@
+body
+{
+    background-color: #fff6d3;
+}
+.margem-baixo
+{
+    margin: 0 0 20px;
+}
+#menu
+{
+    background-color: #009652;
+    height: 134px;
+    width: 100%;
+}
+#menu ul
+{
+    list-style: none;
+}
+#menu ul li
+{
+    float: left;
+}
+#menu ul li a
+{
+    border-radius: 15px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+#menu ul li a:hover
+{
+    background-color: #fff;
+    color: #009652;
+}
+a.ativo
+{
+    background-color: #fff;
+    color: #009652 !important;
+}
+.box-mesa
+{
+    float: left;
+    height: 200px;
+    margin: 0 15px 15px 0;
+    position: relative;
+    width: 200px;
+}
+.cadeira-top, .cadeira-top-comprando, .cadeira-top-comprado
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-top.png") no-repeat scroll 0 0;
+    font-size: 18px;
+    height: 32px;
+    left: 75px;
+    line-height: 36px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 49px;
+}
+.cadeira-top-comprando
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-top-comprando.png") no-repeat scroll 0 0;
+}
+.cadeira-top-comprado
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-top-comprado.png") no-repeat scroll 0 0;
+}
+a .cadeira-top:hover /*, .cadeira-top-comprando:hover, .cadeira-top-comprado:hover*/ /*, .cadeira-top-comprando:hover, .cadeira-top-comprado:hover*/
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-top-hover.png") no-repeat scroll 0 0;
+}
+a .cadeira-right:hover /*, .cadeira-right-comprando:hover, .cadeira-right-comprado:hover*/ /*, .cadeira-right-comprando:hover, .cadeira-right-comprado:hover*/
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-right-hover.png") no-repeat scroll 0 0;
+}
+a .cadeira-bottom:hover /*, .cadeira-bottom-comprando:hover, .cadeira-bottom-comprado:hover*/ /*, .cadeira-bottom-comprando:hover, .cadeira-bottom-comprado:hover*/
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-bottom-hover.png") no-repeat scroll 0 0;
+}
+a .cadeira-left:hover /*, .cadeira-left-comprando:hover, .cadeira-left-comprado:hover*/ /*, .cadeira-left-comprando:hover, .cadeira-left-comprado:hover*/
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-left-hover.png") no-repeat scroll 0 0;
+}
+a .mesa:hover /*, .mesa-comprando:hover, .mesa-comprado:hover*/ /*, .mesa-comprando:hover, .mesa-comprado:hover*/
+{
+    background: rgba(0, 0, 0, 0) url("../img/mesa-sozinha-hover.png") no-repeat scroll 0 0;
+}
+.cadeira-right-2
+{
+    top: 111px !important;
+}
+.cadeira-right, .cadeira-right-comprando, .cadeira-right-comprado
+{
+    background: url(../img/cadeira-right.png) no-repeat;
+    font-size: 18px;
+    height: 49px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 40px;
+    width: 32px;
+}
+.cadeira-right-comprando
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-right-comprando.png") no-repeat scroll 0 0;
+}
+.cadeira-right-comprado
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-right-comprado.png") no-repeat scroll 0 0;
+}
+.cadeira-bottom, .cadeira-bottom-comprando, .cadeira-bottom-comprado
+{
+    background: url(../img/cadeira-bottom.png) no-repeat;
+    bottom: 0;
+    font-size: 18px;
+    height: 32px;
+    left: 75px;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    width: 49px;
+}
+.cadeira-bottom-comprando
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-bottom-comprando.png") no-repeat scroll 0 0;
+}
+.cadeira-bottom-comprado
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-bottom-comprado.png") no-repeat scroll 0 0;
+}
+.cadeira-left, .cadeira-left-comprando, .cadeira-left-comprado
+{
+    background: url(../img/cadeira-left.png) no-repeat;
+    font-size: 18px;
+    height: 49px;
+    left: 0;
+    line-height: 47px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 32px;
+}
+.cadeira-left-comprando
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-left-comprando.png") no-repeat scroll 0 0;
+}
+.cadeira-left-comprado
+{
+    background: rgba(0, 0, 0, 0) url("../img/cadeira-left-comprado.png") no-repeat scroll 0 0;
+}
+.mesa, .mesa-comprando, .mesa-comprado
+{
+    background: url(../img/mesa-sozinha.png) no-repeat;
+    font-size: 32px;
+    height: 134px;
+    left: 33px;
+    line-height: 132px;
+    position: absolute;
+    text-align: center;
+    top: 32px;
+    width: 134px;
+}
+.mesa-comprando
+{
+    background: rgba(0, 0, 0, 0) url("../img/mesa-sozinha-comprando.png") no-repeat scroll 0 0;
+}
+.mesa-comprado
+{
+    background: rgba(0, 0, 0, 0) url("../img/mesa-sozinha-comprado.png") no-repeat scroll 0 0;
+}
+
+.label
+{
+    font-size: 14px;
+    color: White;
+}
+
+.label_saldo
+{
+    font-size: 18px;
+    color: White;
+}
+
+.label_legenda
+{
+    font-size: 12px;
+    color: White;
+}
+
+.label_ingresso
+{
+    font-size: 12px;
+    color: #FFFF00;
+}
+
+.label_ingresso_vermelho {
+    font-size: 12px;
+    color: #ff0000;
+}
+
+.linkBotao
+{
+    background-color: #000099;
+    color: #fff !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0px 17px !important;
+    text-align: center !important;
+    width: 150px;
+    line-height: 26px;
+    font-family: Arial !important;
+    font-size: 12px;
+}
+
+.linkBotao:hover
+{
+    background-color: #000099 !important;
+    color: #fff !important;
+}
+
+.linkBotao a
+{
+}
+
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=50);
+    opacity: 0.50;
+}
+
+.updateProgress
+{
+    border-width: 0px;
+    border-style: solid;
+    background-color: transparent;
+    position: absolute;
+    width: 180px;
+    height: 65px;
+}
+
+.circleborder
+{
+    border-radius: 100%;
+    border: 1px solid #000000;
+}
+
+#divProcessando {
+    background: url(../../images/aguarde.gif) no-repeat center;
+    position: absolute;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    cursor: wait;
+    position: fixed;
+}
+

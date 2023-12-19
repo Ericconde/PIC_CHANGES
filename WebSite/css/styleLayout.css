@@ -1,0 +1,439 @@
+:root {
+    --swiper-navigation-size: 20px;
+    --font-weight-bolder: 700;
+    --border-radius-default: 0.45rem;
+
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+element {
+    font-family: Calibri;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+.btn-warning {
+    background-color: #f7be64;
+    border-color: #f39c12;
+    color: #fff;
+    border-radius: var(--border-radius-default);
+}
+.btn-danger {
+    color: #fff;
+    border-radius: var(--border-radius-default);
+}
+.form-control {
+    border-radius: var(--border-radius-default);
+}
+
+/* .btn-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+} */
+
+.jumbotron {
+    background-color: #cccccc;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+}
+
+.jumbo-checkout {
+    font-size: 1.4rem;
+    border-radius: 0%;
+    margin-bottom: 5px;
+}
+
+.jumbotron .badge {
+    font-size: 2.1rem;
+    border-radius: 50%;
+    padding: 14px 10px
+}
+
+
+.dropdown-menu {
+    z-index: 12000 !important;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32rem;
+}
+
+/* STYLES FONT*/
+.text-bolder {
+    font-weight: var(--font-weight-bolder);
+}
+
+.icons i {
+    border: 1px solid #007bff !important;
+    border-radius: 50%;
+    padding: 10px;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.btn-white {
+    background-color: #fff;
+}
+
+.acesso .dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+}
+
+.acesso .form-control,
+.acesso .btn {
+    border-radius: 0;
+}
+
+.acesso a {
+    color:dimgrey !important;
+    font-weight: var(--font-weight-bolder);
+    font-family: Calibri;
+}
+
+.acesso .badge {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.acesso .dropdown-divider {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*style search whit border primary color, icon inside input search*/
+.search {
+    position: relative;
+}
+
+.search input {
+    border-radius: var(--border-radius-default);
+    padding: 5px 10px 5px 50px;
+    width: 100% !important;
+}
+
+.search i {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #007bff;
+}
+
+
+
+
+.card .data {
+    font-size: 17px;
+    font-weight: 600;
+    color: #0089fe;
+}
+
+.card .nome {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.card .descricao {
+    font-size: 10px;
+    font-weight: 600;
+    color: darkgrey;
+}
+
+.em-alta {
+    position: relative;
+    /* margin-top: px !important; */
+}
+
+.controls {
+    float: left;
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    width: 130px;
+    background-color: #007bff !important;
+    z-index: 9999 !important;
+}
+
+.compras h2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper .rounded {
+    border-radius: var(--border-radius-default) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    font-weight: 900;
+    
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+    padding: 20px;
+    color: darkgrey;
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    color: #0089fe;
+    font-size: 5px !important;
+}
+
+/* ESTILO DO OTAVIO PARA REFATORAÇÃO*/
+.evento  {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: Calibri;
+}
+
+.imagemFundo {
+    background-size: cover;
+}
+
+.TituloEvento {
+    margin-bottom: 48px;
+}
+
+.btn-more-info {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transform: translate(-50%, 50%);
+}
+
+.btn-outline-primary.btn-more-info:hover {
+    background-color: #0089fe;
+    color: #fff;
+}
+
+.InfoEvento {
+    background-color: #A9A9A9;
+    position: relative;
+}
+
+.ticket {
+    border-radius: var(--border-radius-default);
+}
+
+.ticket .ticket-header {
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px;
+    width: 100% !important;
+    border-radius: var(--border-radius-default);
+}
+
+.ticket .ticket-body {
+    background-color: #fff;
+    padding: 12px;
+    width: 108% !important;
+    border-radius: var(--border-radius-default);
+    position: relative;
+}
+
+.ticket-resumo-title {
+    font-family:Calibri;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: var(--border-radius-default);
+    width: 100%;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 32px;
+    text-align: center;
+}
+
+.bg-warning-opacity {
+    background-color: #DEB887;
+}
+
+.ticket-resumo-content {
+    font-size: 0.85em;
+    max-height: 80px;
+    overflow-y: scroll;   
+    margin-bottom: 10px;
+   
+}
+
+.resumo-valores .ticket-quantity .ticket-quantity-input .minus,
+.resumo-valores .ticket-quantity .ticket-quantity-input .plus {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.resumo-valores .ticket-quantity .ticket-quantity-input .form-control {
+    width: 50px;
+    height: 30px;
+    padding-right: 3px;
+    border: none;
+}
+
+.ticket-quantity {
+    position: relative
+}
+
+.btn-incluir {
+    width: 60px;
+    position: absolute;
+    right: 45px;
+    top: 7px;
+    font-size: 12px;
+    height: 18px;
+    padding: 0 0 3px 0;
+    text-align: center;
+    border-radius: var(--border-radius-default);
+    background-color: #DEB887;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-pagamento {
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar .collapse a {
+        display: block;
+    }
+
+    .BannerEvento {
+        margin: 0;
+        padding: 0;
+    }
+
+    .BannerEvento img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .event-iniciais {
+        display: none;
+    }
+
+    .btn-more-info {
+        position: absolute;
+        left: 50%;
+        top: 38.5%;
+    }
+
+    .text-sm-center {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .navbar .collapse a {
+        display: inline-block;
+    }
+    .text-sm-center {
+        text-align: left !important;
+    }
+
+    .BannerEvento {
+        /* margin: 0; */
+        padding: 0;
+        position: relative;
+    }
+
+    .BannerEvento .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .posiciona-absolute-100 {
+        position: absolute;
+        top: -100px;
+        right: 35px;
+    }
+
+    .btn-more-info {
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+    }
+
+    .posiciona-absolute-50 {
+        position: absolute;
+        top: -5px;
+        right: 5px;
+    }
+
+}

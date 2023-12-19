@@ -1,0 +1,90 @@
+.edicao
+{
+    width: 187pt;
+    color: black;
+    font-size: 20.0pt;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    border: .5pt solid windowtext;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    background: #FFFFFF;
+}
+.assento
+{
+    height: 90.0pt;
+    width: 187pt;
+    color: black;
+    font-size: 20.0pt;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    border: .5pt solid windowtext;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    background: #BFBFBF;
+}
+.voucher
+{
+    height: 40.5pt;
+    width: 98pt;
+    color: black;
+    font-size: 11.0pt;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    border: .5pt solid windowtext;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+.valor
+{
+    width: 89pt;
+    color: black;
+    font-size: 11.0pt;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    border: .5pt solid windowtext;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+.nome
+{
+    height: 51.0pt;
+    width: 98pt;
+    color: black;
+    font-size: 11.0pt;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    border: .5pt solid windowtext;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+}

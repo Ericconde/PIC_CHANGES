@@ -1,0 +1,1606 @@
+/*-------------------------------------------------------
+RESET
+-------------------------------------------------------*/
+/* CSS RESET - http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 0 0 0px 0;
+    padding: 0;
+    font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+ol, ul
+{
+    list-style: none;
+}
+img
+{
+    border: none;
+}
+a
+{
+    outline: none;
+}
+.clear
+{
+    clear: both;
+}
+.borda_titulo
+{
+    border-bottom: 2px solid #262626;
+}
+.td_titulo_formulario
+{
+    background-color: #046c91;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    height: 30px;
+    line-height: 15px;
+    margin: 0 0 20px;
+    padding: 0 15px;
+}
+
+.td_subtitulo
+{
+    background-color: #046c91;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    height: 30px;
+    line-height: 15px;
+    margin: 0 0 20px;
+    padding: 0 15px;
+}
+
+.td_titulo_formulario_candidato
+{
+    padding-left: 10px;
+}
+
+.td_subtitulo_formulario
+{
+    padding-left: 0px;
+}
+
+.celula_nome_campo
+{
+    background-color: #c5cbce;
+    border-bottom: 2px solid #fff;
+}
+
+.celula_campo
+{
+    background-color: #dee1e3;
+    border-bottom: 2px solid #fff;
+    }
+
+.bg_titulo_dashboard
+{
+    background-color: #f0f8ff;
+    border-bottom: 2px solid #046c91;
+    height: 30px;
+    line-height: 30px; /*margin: 0 0 20px;*/
+    padding: 0 15px;
+}
+.titulo_left_dashboard
+{
+    color: #262626;
+    font-size: 18px;
+    float: left;
+    width: 400px;
+}
+
+.titulo_div_dashboard
+{
+    color: #262626;
+    font-size: 16px;
+    float: left;
+    width: 400px;
+    font-weight: bold;
+}
+
+.bg_titulo
+{
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 20px;
+    padding: 0 15px;
+}
+.titulo_claro
+{
+    background: url("../images/bg_titulo.jpg") repeat-x 0 -50px;
+    margin: 10px 0 0 0;
+}
+.titulo_escuro
+{
+    background: url("../images/bg_titulo_escuro.jpg") repeat-x 0 -50px;
+}
+.titulo_left
+{
+    float: left;
+    font-size: 18px;
+    padding: 0 5px;
+    padding-top: 0px;
+}
+.titulo_left img
+{
+    margin: 0 20px 0 0;
+}
+.titulo_right
+{
+    float: right;
+    font-size: 18px;
+    padding: 0 5px;
+}
+.titulo_pagina
+{
+    background: url("../images/bg_titulo.jpg") repeat-x 0 -43px; /*border-bottom: 5px solid #eee;*/
+    color: #fff;
+    font-size: 22px;
+    margin: 0 0 30px;
+    padding: 5px 15px;
+}
+.text_title
+{
+    font-size: 18px;
+    padding: 0 10px;
+}
+.texto_titulo_processo
+{
+    font-size: 15px;
+    padding: 0 10px;
+}
+.titulo_box
+{
+    color: #046C91;
+    font-size: 18px;
+}
+h1
+{
+    color: #000;
+    font-size: 24px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+h1 a
+{
+    color: #000;
+    font-size: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h1 a:hover
+{
+    text-decoration: underline;
+}
+th
+{
+    background-color: #046c91;
+    color: #fff;
+    padding: 0 9px;
+}
+tr
+{
+    border-bottom: 1px solid #666;
+}
+
+
+/*-------------------------------------------------------
+GERAL TOPO
+-------------------------------------------------------*/
+body
+{
+    background-color: #fff;
+    color: #555;
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    background-color: #fff;
+    border-bottom: 5px solid #c0a554;
+    height: 125px;
+    margin: 0 0 30px;
+    width: 100%;
+}
+#center_topo
+{
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+#logo
+{
+    height: 85px;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+    width: 71px;
+}
+
+#menu
+{
+    bottom: 0;
+    height: 42px;
+    left: 294px;
+    position: absolute;
+    width: 713px;
+}
+#menu ul
+{
+    list-style: none;
+}
+#menu ul li
+{
+    float: left;
+}
+#menu ul li a 
+{
+    border-radius: 0 0 30px 30px;
+    color: #262626;
+    display: block;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+#menu ul li a:hover
+{
+    background-color: #c0a554;
+}
+
+#menu_administrador
+{
+    bottom: 0;
+    height: 42px;
+    left: 294px;
+    position: absolute;
+    width: 713px;
+}
+#menu_administrador ul
+{
+    list-style: none;
+}
+#menu_administrador ul li
+{
+    float: left;
+}
+#menu_administrador ul li a
+{
+    border-radius: 0 0 30px 30px;
+    color: #262626;
+    display: block;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+#menu_administrador ul li a:hover
+{
+    background-color: #FAF8F1;
+}
+
+.menu_selecionado
+{
+    border-radius: 0 0 30px 30px;
+    color: #262626;
+    display: block;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: #c0a554;
+}
+
+.menu_candidato
+{
+    margin: 7px 15px !important;
+}
+#logo_fra
+{
+    color: #fff;
+    height: 85px;
+    position: absolute;
+    right: -820px;
+    top: 0;
+    width: 71px;
+}
+#boas_vindas
+{
+    color: #262626;
+    font-size: 12px;
+    height: 20px;
+    position: absolute;
+    right: 193px;
+    text-align: right;
+    top: 15px;
+    width: 710px;
+}
+#icon_lapis
+{
+    float: left;
+    height: 163px;
+    margin: -35px 0 0 -55px;
+    position: absolute;
+    width: 85px;
+    z-index: 9999;
+}
+/*-------------------------------------------------------
+CONTEUDO HOME
+-------------------------------------------------------*/
+#site
+{
+    min-height: 10px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.conteudo_nao_logado
+{
+    height: auto;
+    float: left;
+    margin: 0 30px 0 0;
+    width: 65%;
+}
+
+#conteudo
+{
+    height: auto;
+    float: left;
+    margin: 0 30px 0 0;
+    width: 65%;
+}
+#conteudo img
+{
+    margin: 20px 0 0 0;
+}
+
+#conteudo_sistema
+{
+    height: auto;
+    float: left;
+    margin: 0 30px 30px 0;
+    width: 100%;
+}
+
+.box_usuario
+{
+    height: auto;
+    margin: 0 0 30px;
+    padding: 0 0 1px;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.box_home
+{
+    float: left;
+    height: auto;
+    margin: 0 0 30px;
+    padding: 0 0 1px;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.box_padrao
+{
+    height: auto;
+    margin: 0 0 1px;
+    padding: 0 0 1px;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.texto_box_home
+{
+    line-height: 30px;
+    padding: 0 0 10px;
+    width: 628px;
+}
+.texto_box_home p
+{
+    margin: 0 0 10px 0;
+}
+.texto_box_home_site
+{
+    line-height: 30px;
+    width: 100%;
+}
+.texto_box_home_site a
+{
+    color: #555;
+    display: block;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.texto_box_home_site a:hover
+{
+    background-color: #262626;
+    color: #eee;
+}
+.texto_box_home_site p
+{
+    color: #555 !important;
+    margin: 0 0 10px 0;
+}
+/*-------------------------------------------------------
+SIDERBAR
+-------------------------------------------------------*/
+#sidebar
+{
+    height: 213px;
+    margin: 0 0 30px;
+    float: right;
+    width: 30%;
+}
+.sidebar
+{
+    background-color: #d3cd98;
+    float: left;
+    height: 213px;
+    margin: 0 0 30px;
+    width: 302px;
+}
+#area_login
+{
+    height: 160px;
+    width: 268px;
+}
+#area_login label
+{
+    color: #555;
+    float: left;
+    font-size: 15px;
+    text-align: right;
+    width: 54px;
+}
+#area_login input[type="text"], #area_login input[type="password"]
+{
+    background-color: #fff;
+    border: 1px solid #262626;
+    float: left;
+    margin: 0 0 6px 13px;
+    padding: 6px;
+    width: 187px;
+}
+
+#area_login input[type="submit"]
+{
+    background-color: #fff;
+    border: 1px solid #262626;
+    color: #555;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin: 0 0 10px;
+    padding: 0 15px;
+}
+#area_login input[type="submit"]:hover
+{
+    background-color: #046c91;
+    border: 1px solid #046c91;
+    color: #fff;
+}
+#area_login a
+{
+    color: #555;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    width: 170px;
+}
+#area_login a:hover
+{
+    text-decoration: underline;
+}
+#area_login p a
+{
+    color: #555;
+    text-decoration: none;
+}
+#area_login p a:hover
+{
+    text-decoration: underline;
+}
+
+#area_noticias
+{
+    height: auto;
+    margin: 0 auto;
+    width: 272px;
+}
+#area_noticias a
+{
+    border-bottom: 1px solid #666;
+    color: #666;
+    float: right;
+    padding: 10px 0;
+    text-align: left;
+    text-decoration: none;
+    width: 280px;
+}
+#area_noticias a:hover
+{
+    text-decoration: underline;
+}
+#area_noticias p a
+{
+    color: #555;
+    text-decoration: none;
+}
+#area_noticias p a:hover
+{
+    text-decoration: underline;
+}
+
+#like_fecebook
+{
+    background-color: #fff;
+    height: 350px;
+    width: 302px;
+}
+.link_inscricao
+{
+    color: #979797;
+    border: 1px solid #979797;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px 15px;
+    display: block;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.link_inscricao:hover
+{
+    background-color: #046c91;
+    border: 1px solid #046c91;
+    color: #eee !important;
+}
+/*-------------------------------------------------------
+CONTROLA A DIV DE NOTICIAS SITUADA NA HOME
+-------------------------------------------------------*/
+#noticia_home
+{
+    background-color: #c1d4da;
+    color: #666;
+    float: right;
+    height: auto;
+    margin: 0 0 30px;
+    padding: 0 0 30px;
+    width: 302px;
+}
+/*-------------------------------------------------------
+FOOTER DO SITE
+-------------------------------------------------------*/
+#footer
+{
+    background-color: #d3cd98;
+    height: 186px;
+    margin: 30px 0 0;
+    position: relative;
+    width: 100%;
+}
+#footer_center
+{
+    color: #eee;
+    height: 186px;
+    margin: 0 auto;
+    width: 960px;
+}
+.margem_zero
+{
+    margin-right: 0 !important;
+}
+.box_footer
+{
+    color: #eee;
+    float: left;
+    height: 136px;
+    margin: 0 30px 0 0;
+    padding: 20px 0 0;
+    width: 216px;
+}
+.box_footer p
+{
+    color: #000;
+    font-size: 12px;
+    text-transform: none;
+}
+.box_footer p a
+{
+    color: #000;
+}
+#copy
+{
+    color: #000;
+    float: left;
+    height: 30px;
+    line-height: 32px;
+    width: 960px;
+}
+/*-------------------------------------------------------
+CADASTRAR NOVO CANDIDATO DO SITE
+-------------------------------------------------------*/
+.box_candidato_novo
+{
+    background-color: #c2d6e0;
+    height: auto;
+    margin: 0 0 30px;
+    padding: 0 0 1px; /*width: 628px;*/
+}
+.texto_box_candidato
+{
+    margin: 0 0 20px 15px;
+    padding: 0 0 10px;
+    width: 930px;
+}
+.texto_box_candidato label
+{
+    color: #555;
+    float: left;
+    font-size: 15px;
+    text-align: right;
+    width: 200px;
+}
+.texto_box_candidato input[type="text"]
+{
+    background-color: #fff;
+    border: 1px solid #046c91;
+    float: left;
+    margin: 0 0 6px 13px;
+    padding: 6px;
+    width: 703px;
+}
+.texto_box_candidato input[type="password"]
+{
+    background-color: #fff;
+    border: 1px solid #046c91;
+    float: left;
+    margin: 0 0 6px 13px;
+    padding: 6px;
+    width: 238px;
+}
+.texto_box_candidato input[type="submit"]
+{
+    background-color: #fff;
+    border: 1px solid #046c91;
+    color: #555;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin: 0 0 10px;
+    padding: 0 15px;
+}
+.texto_box_candidato input[type="submit"]:hover
+{
+    background-color: #046c91;
+    border: 1px solid #046c91;
+    color: #fff;
+}
+.texto_pss_simplificado p
+{
+    color: #555;
+}
+/*-------------------------------------------------------
+FORMULÁRIO DO SISTEMA
+-------------------------------------------------------*/
+.textbox
+{
+    border: 1px solid #262626;
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    margin: 0 0 10px;
+    padding: 5px;
+}
+
+.checkbox
+{
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.checkbox label 
+{
+  
+}
+
+.checkbox input 
+{
+  vertical-align: middle;
+}
+.checkbox label span 
+{
+  vertical-align: middle;
+}
+
+.checkboxEstacionamento
+{
+    color: #333;
+    font-family: Calibri;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.textbox_senha
+{
+    border: 1px solid #262626;
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    padding: 5px 0;
+}
+
+.textbox_email
+{
+    border: 1px solid #262626;
+    font-family: Calibri;
+    font-size: 11px;
+    padding: 5px;
+    text-transform: lowercase;
+}
+
+.label
+{
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 120%;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.labelTotalCarrinho
+{
+    font-family: Calibri;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 120%;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+    color: #000000;
+}
+
+.label_valor
+{
+    font-family: Calibri;
+    font-size: 11px;
+    line-height: 120%;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_numero_linhas
+{
+    font-family: Calibri;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.labelMensagemSocio
+{
+    font-family: Calibri;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 120%;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+    color: #FF0000;
+}
+
+.label_sumario
+{
+    font-family: Calibri;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_compra_valor
+{
+    font-family: Calibri;
+    font-size: 11px;
+    line-height: 120%;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.label_titulo_mensagem_candidato
+{
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0px;
+    line-height: 120%;
+}
+
+.label_mensagem_candidato
+{
+    font-family: Calibri;
+    font-size: 11px;
+    margin-left: 0px;
+    line-height: 120%;
+}
+
+.label_text
+{
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0px;
+    line-height: 100%;
+}
+.label_alerta
+{
+    font-family: Calibri;
+    font-size: 11px;
+    margin-left: 0px;
+    color: #FF0000;
+    line-height: 100%;
+}
+
+.label_saudacao
+{
+    font-family: Calibri;
+    font-size: 12px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #333;
+    line-height: 100%;
+}
+
+.label_inscricao
+{
+    font-family: Calibri;
+    font-size: 11px;
+    margin-left: 0px;
+    font-weight: normal;
+    line-height: 100%;
+}
+
+.label_duvida
+{
+    font-family: Calibri;
+    font-size: 14px;
+    margin-left: 0px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.label_explicacao
+{
+    font-family: Calibri;
+    font-size: 12px;
+    margin-left: 0px;
+    line-height: 100%;
+}
+
+.label_status_recurso
+{
+    font-family: Calibri;
+    font-size: 14px;
+    margin-left: 0px;
+    line-height: 100%;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.label_resposta
+{
+    font-family: Calibri;
+    font-size: 12px;
+    margin-left: 0px;
+    line-height: 100%;
+}
+.dropdown
+{
+    border: 1px solid #262626;
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    margin: 0 0 10px;
+    padding: 0 5px;
+}
+
+.radioButton
+{
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    margin: 0 0 0px;
+    padding: 0 5px;
+}
+
+.listbox
+{
+    border: 1px solid #262626;
+    color: #333;
+    font-family: Calibri;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.botao, .botao_candidato, .link_aba
+{
+    background-color: #fafafa;
+    border: 1px solid #046c91;
+    color: #555;
+    cursor: pointer;
+    padding: 0 15px;
+    height: 24px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.link_aba
+{
+    text-align: center !important;
+}
+
+.botao:hover, .botao_candidato:hover
+{
+    background-color: #046c91;
+    border: 1px solid #046c91;
+    color: #fff;
+}
+.link_aba:hover
+{
+    background-color: #046c91;
+    border: 1px solid #046c91;
+    color: #eee !important;
+}
+
+.linkBotao
+{
+    background-color: #fafafa;
+    border: 1px solid #046c91;
+    color: #555;
+    cursor: pointer;
+    margin: 0 0 10px;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.linkBotao:hover
+{
+}
+
+.linkBotao a
+{
+    background-color: #046c91 !important;
+    border: 1px solid #046c91 !important;
+    color: #fff !important;
+}
+
+.fieldset_l_dashboard
+{
+    border: 1px solid #046c91;
+    color: #262626;
+    float: left;
+    margin: 0 0 30px 9px;
+    padding: 0;
+    width: 350px;
+}
+
+legend
+{
+    margin-left: 15px;
+}
+
+.fieldset_l_compra
+{
+    border: 1px solid #046c91;
+    color: #262626;
+    float: left;
+    margin: 0 0 30px 9px;
+    padding: 0;
+    width: 350px;
+}
+.fieldset_l_Solicitacao
+{
+    border: 1px solid #046c91;
+    color: #262626;
+    float: left;
+    margin: 0 0 10px 9px;
+    padding: 0;
+    width: 350px;
+}
+
+#divProcessando
+{
+    background: url(../images/aguarde.gif) no-repeat center;
+    position: absolute;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    cursor: wait;
+    position: fixed;
+}
+
+.grid_header th {
+    background-color: #c5cbce;
+    background-position: left;
+    color: #000000;
+    text-align: left;
+    height: 16px;
+    border-right: #999 1px solid;
+    border-top: #999 1px solid;
+    border-left: #999 1px solid;
+    border-bottom: #999 1px solid;
+    line-height: 150%;
+    padding: 0px 0px 0px 5px;
+}
+
+.grid_row_selecionado
+{
+    color: black;
+    background-color: #E5E5E5;
+}
+
+.grid, .grid_none
+{
+    color: #666;
+    text-align: left;
+    background-color: #dee1e3;
+    text-align: left;
+    padding: 0 5px !important;
+    font-size: 12px;
+}
+
+.grid td, grid_alternative_row td, grid_alternative_row_none td
+{
+    padding: 0px 0px 0px 5px;
+}
+
+tr.grid_alternative_row, tr.grid_alternative_row_none
+{
+    background-color: #FCFCF8;
+    color: #666;
+}
+
+.grid_page a
+{
+    display: block;
+    width: 15px;
+    background-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.grid_page span
+{
+    display: block;
+    width: 15px;
+    background-color: #d3cd98;
+    color: #006C94;
+    font-weight: bold;
+    border: 1px solid #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.grid_link
+{
+    text-decoration: none;
+    color: #808080;
+}
+
+.grid tr a
+{
+    color: #555;
+    display: block;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.grid tr:hover, .grid_link:hover, .texto_box_home_site a:hover
+{
+    background-color: #E5E5E5 !important;
+    color: #000000;
+    cursor: pointer;
+}
+.grid_linha_centro
+{
+    color: #666;
+    text-align: left;
+    background-color: #dee1e3;
+    text-align: center;
+    padding: 0 5px !important;
+    font-size: 12px;
+}
+/*-------------------------------------------------------
+FORMULÁRIO DO SISTEMA
+-------------------------------------------------------*/
+.menu_abas
+{
+    background-color: #046c91;
+    margin: 0 0 30px;
+    width: 628px;
+}
+.menu_abas a, .menu_abas_selecionado a
+{
+    border-right: 1px solid #edf2f5 !important;
+    color: #eee;
+    margin: 0 0 30px;
+    padding: 16px 8px 25px;
+}
+.menu_abas a:hover, .menu_abas_candidato a:hover
+{
+    background: url("../images/hover.png") no-repeat center center;
+    color: #046c91;
+    height: 43px;
+}
+.menu_abas_selecionado
+{
+    background: url("../images/hover_aba.png") no-repeat center center;
+    color: #046c91 !important;
+    height: 43px;
+    margin-top: 1px;
+}
+.menu_abas_candidato
+{
+    background-color: #046c91;
+    margin: 0 0 30px;
+    width: 960px;
+}
+.menu_abas_candidato a
+{
+    border-right: 1px solid #fafafa !important;
+    color: #eee;
+    margin: 0 0 30px;
+    padding: 16px 36px 25px;
+}
+/*-------------------------------------------------------
+CONTROLA O DASHBOARD DA HOME DE CANDIDADO LOGADO!
+-------------------------------------------------------*/
+#boas_vindas_candidato
+{
+    color: #262626;
+    font-size: 12px;
+    height: 20px;
+    position: absolute;
+    right: 194px;
+    text-align: right;
+    top: 124px;
+    width: 960px;
+}
+#logo_fra_logados
+{
+    color: #fff;
+    height: 85px;
+    position: absolute;
+    right: -820px;
+    top: 0;
+    width: 71px;
+}
+.texto_dashboard
+{
+    height: auto;
+    min-height: 70px;
+    padding: 0 15px 20px;
+    position: relative;
+    width: 282px;
+    top: 0px;
+    left: -2px;
+}
+.texto_dashboard a
+{
+    color: #262626;
+    line-height: 20px;
+    text-decoration: none;
+}
+.texto_dashboard a:hover
+{
+    text-decoration: underline;
+}
+.link_dashboard
+{
+    bottom: 0;
+    position: absolute;
+    right: 15px;
+}
+.link_dashboard a, .troca_senha a, .voltar a, .novo_recurso a
+{
+    border: 1px solid #eee;
+    color: #262626;
+    display: block;
+    line-height: normal;
+    padding: 2px 14px;
+}
+.link_dashboard a:hover, .troca_senha a:hover, .voltar a:hover, .novo_recurso a:hover
+{
+    background-color: #046c91 !important;
+    border: 1px solid #046c91 !important;
+    color: #eee;
+    text-decoration: none !important;
+}
+.troca_senha
+{
+    bottom: 0;
+    position: absolute;
+    left: 15px;
+}
+.novo_recurso
+{
+    bottom: 0;
+    position: absolute;
+    left: 15px;
+}
+.voltar
+{
+    bottom: 0;
+    position: absolute;
+    left: 15px;
+}
+#meus_dados
+{
+    background-color: #f0f8ff;
+    float: left;
+    height: 173px;
+    margin: 0 10px 30px 0;
+    width: 310px;
+}
+
+#eventos
+{
+    background-color: #f0f8ff;
+    float: left;
+    height: 173px;
+    margin: 0 10px 30px 0;
+    width: 310px;
+}
+
+#comprovante
+{
+    background-color: #f0f8ff;
+    float: left;
+    height: 173px;
+    margin: 0 0 30px 0;
+    width: 320px;
+}
+
+#Ingressos
+{
+    background-color: #f0f8ff;
+    float: left;
+    height: 173px;
+    margin: 0 10px 30px 0;
+    width: 310px;
+}
+
+#Estacionamento
+{
+    background-color: #f0f8ff;
+    float: left;
+    height: 173px;
+    margin: 0 10 30px 0;
+    width: 310px;
+}
+
+.icones_deshboard img
+{
+    position: relative;
+    right: 0;
+    top: -154px;
+    z-index: 88888;
+}
+.img_usuario_login
+{
+    position: relative;
+    right: 0;
+    top: -135px;
+    z-index: 88888;
+}
+.data_tables
+{
+    background-color: #046c91;
+    color: #c1d4da;
+    font-weight: bold;
+    padding: 0 15px;
+    text-align: center;
+    width: 85px;
+}
+/*-------------------------------------------------------
+CONTROLA ALGUMAS CORES DO SISTEMA
+-------------------------------------------------------*/
+.bg_title_color1
+{
+    background-color: #dee1e3;
+    color: #C0A554;
+}
+.bg_title_color2
+{
+    background-color: #046c91;
+    color: #c1d4da;
+}
+.bg_noticias
+{
+    background-color: #c1d4da;
+    color: #666;
+}
+
+.cal_Theme1 .ajax__calendar_container
+{
+    background-color: #e2e2e2;
+    border: solid 1px #cccccc;
+    z-index: 1000;
+}
+.cal_Theme1 .ajax__calendar_header
+{
+    background-color: #ffffff;
+    margin-bottom: 4px;
+}
+.cal_Theme1 .ajax__calendar_title, .cal_Theme1 .ajax__calendar_next, .cal_Theme1 .ajax__calendar_prev
+{
+    color: #004080;
+    padding-top: 3px;
+}
+.cal_Theme1 .ajax__calendar_body
+{
+    background-color: #e9e9e9;
+    border: solid 1px #cccccc;
+    z-index: 1000;
+}
+.cal_Theme1 .ajax__calendar_dayname
+{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+.cal_Theme1 .ajax__calendar_day
+{
+    text-align: center;
+}
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day, .cal_Theme1 .ajax__calendar_hover .ajax__calendar_month, .cal_Theme1 .ajax__calendar_hover .ajax__calendar_year, .cal_Theme1 .ajax__calendar_active
+{
+    color: #004080;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+.cal_Theme1 .ajax__calendar_today
+{
+    font-weight: bold;
+}
+.cal_Theme1 .ajax__calendar_other, .cal_Theme1 .ajax__calendar_hover .ajax__calendar_today, .cal_Theme1 .ajax__calendar_hover .ajax__calendar_title
+{
+    color: #bbbbbb;
+}
+
+.div_label
+{
+    float: left;
+    margin-top: 7px;
+}
+
+.div_control
+{
+    float: left;
+}
+
+.div_deficiencia
+{
+    float: left;
+    width: 265px;
+}
+
+.div_subbox
+{
+    padding: 15px;
+}
+
+.div_subbox a
+{
+    line-height: 30px;
+    margin: 15px 0 0;
+    text-decoration: none;
+}
+
+.nome_usuario
+{
+    font-family: Calibri;
+    font-size: 10px;
+}
+
+.nome_administrador
+{
+    font-family: Calibri;
+    font-size: 10px;
+    color: #FF0000;
+}
+
+.div_imagem_rodape
+{
+    width: 135px;
+    float: left;
+}
+
+#logoFraminas
+{
+    height: 85px;
+    left: 800px;
+    position: absolute;
+    top: 10px;
+    width: 71px;
+}
+
+#logoSite
+{
+    left: 15px;
+    position: absolute;
+    top: 10px;
+}
+
+.alert-box
+{
+    color: #555;
+    border-radius: 10px;
+    font-family: Tahoma,Geneva,Arial,sans-serif;
+    font-size: 11px;
+    padding: 10px 10px 10px 36px;
+    margin: 10px;
+}
+
+.alert-box span
+{
+    font-weight: bold;
+}
+
+.error
+{
+    background: #ffecec url('../images/error.png') no-repeat 10px 50%;
+    border: 1px solid #f5aca6;
+}
+.success
+{
+    background: #e9ffd9 url('../images/success.png') no-repeat 10px 50%;
+    border: 1px solid #a6ca8a;
+    width: 220px;
+}
+.warning
+{
+    background: #fff8c4 url('../images/warning.png') no-repeat 10px 50%;
+    border: 1px solid #f2c779;
+}
+.notice
+{
+    background: #e3f7fc url('../images/notice.png') no-repeat 10px 50%;
+    border: 1px solid #8ed9f6;
+}
+
+/************** WINDOW MODAL LOADING ************/
+#mask
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #100C0C;
+    opacity: 0.3;
+    z-index: 999;
+    display: none;
+}
+#loading
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    background: #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999999;
+}
+
+.div_RetornoPagamento
+{
+    float: left;
+    width: 700px;
+    line-height: 110%;
+}
+
+.botao_venda_ingresso
+{
+    background-color: #000099;
+    color: #fff !important;
+    border: none !important;
+    margin: -10px 0 0 0;
+    padding: 5px 17px !important;
+    text-align: center !important;
+    font-family:Arial !important;
+}
+
+a.botao_venda_ingresso
+{
+    background-color: #000099;
+    color: #fff !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0px 17px !important;
+    text-align: center !important;
+    width: 150px;
+    line-height: 26px;
+    font-family:Arial !important;
+    font-size:12px;
+}
+
+a.botao_venda_ingresso:hover
+{
+    background-color: #000099 !important;
+    color: #fff !important;
+}
+
+a.botao_detalhes
+{
+    background-color: #fafafa;
+    color: #000000 !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0px 17px !important;
+    text-align: center !important;
+    width: 110px;
+    line-height: 26px;
+    font-family: Arial !important;
+    font-size: 12px;
+    border: 1px solid #046c91 !important;
+}
+
+a.botao_detalhes:hover
+{
+    background-color: #046c91 !important;
+    color: #FFFFFF !important;
+}
+
+.not-active 
+{
+   pointer-events: none;
+   cursor: default;
+}
+
+.fieldset_filtro
+{
+	width: 959px;
+	padding: 0;
+	border: 1px solid #C0C0C0;
+	margin-left: 10px;
+}

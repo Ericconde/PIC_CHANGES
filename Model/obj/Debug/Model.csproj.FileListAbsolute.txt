@@ -1,0 +1,88 @@
+E:\importante\new\PIC\Model\bin\Debug\Model.dll
+E:\importante\new\PIC\Model\bin\Debug\Model.pdb
+E:\importante\new\PIC\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+E:\importante\new\PIC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC\Model\obj\Debug\Model.csproj.CopyComplete
+E:\importante\new\PIC\Model\obj\Debug\Model.dll
+E:\importante\new\PIC\Model\obj\Debug\Model.pdb
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\bin\Debug\Model.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\bin\Debug\Model.pdb
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\obj\Debug\Model.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\obj\Debug\Model.pdb
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\bin\Debug\Model.dll.config
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\RAPHAEL\Desktop\Pastas\Programação\PIC\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\bin\Debug\Model.dll.config
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\bin\Debug\Model.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\bin\Debug\Model.pdb
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\obj\Debug\Model.dll
+C:\Users\RAPHAEL\Source\Repos\githubpontobrsistemas\PIC_HMG\Model\obj\Debug\Model.pdb
+E:\importante\new\PIC_HMG\Model\bin\Debug\Model.dll.config
+E:\importante\new\PIC_HMG\Model\bin\Debug\Model.dll
+E:\importante\new\PIC_HMG\Model\bin\Debug\Model.pdb
+E:\importante\new\PIC_HMG\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\importante\new\PIC_HMG\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\importante\new\PIC_HMG\Model\bin\Debug\CrystalDecisions.Shared.dll
+E:\importante\new\PIC_HMG\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+E:\importante\new\PIC_HMG\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\importante\new\PIC_HMG\Model\obj\Debug\Model.csproj.CopyComplete
+E:\importante\new\PIC_HMG\Model\obj\Debug\Model.dll
+E:\importante\new\PIC_HMG\Model\obj\Debug\Model.pdb
+E:\importante\new\PIC_HMG\Model\bin\Debug\PontoBr.dll
+E:\importante\new\PIC_HMG\Model\bin\Debug\MultiDropDown.dll
+E:\importante\new\PIC_HMG\Model\bin\Debug\DropDownCheckBoxes.dll
+E:\importante\new\PIC_HMG\Model\bin\Debug\PontoBr.dll.config
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\bin\Debug\Model.dll.config
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\bin\Debug\Model.dll
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\bin\Debug\Model.pdb
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.dll
+C:\Users\RAPHAEL\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.pdb
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Debug\Model.dll.config
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Debug\Model.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Debug\Model.pdb
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Projetos PontoBr\PIC_HMG\Model\bin\Debug\CrystalDecisions.Shared.dll
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Debug\Model.csproj.CopyComplete
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Debug\Model.dll
+F:\Projetos PontoBr\PIC_HMG\Model\obj\Debug\Model.pdb
+E:\importante\new\PIC\Model\bin\Debug\Model.dll.config
+E:\importante\new\PIC\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\importante\new\PIC\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\importante\new\PIC\Model\bin\Debug\CrystalDecisions.Shared.dll
+E:\importante\new\PIC\Model\bin\Debug\PontoBr.dll
+E:\importante\new\PIC\Model\bin\Debug\MultiDropDown.dll
+E:\importante\new\PIC\Model\bin\Debug\DropDownCheckBoxes.dll
+E:\importante\new\PIC\Model\bin\Debug\PontoBr.dll.config
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\Model.dll.config
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\Model.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\Model.pdb
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\MultiDropDown.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\DropDownCheckBoxes.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\bin\Debug\PontoBr.dll.config
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.dll
+C:\Users\marco\OneDrive\Documents\GitHub\PIC_HMG\Model\obj\Debug\Model.pdb
